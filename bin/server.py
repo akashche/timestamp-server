@@ -25,7 +25,7 @@ class TestHandler(BaseHTTPRequestHandler):
             "ts",
             "-reply",
             "-config", 
-            "../conf/openssl.conf", 
+            "../conf/openssl-ts.conf", 
             "-passin",
             "pass:1234",
             "-queryfile",
